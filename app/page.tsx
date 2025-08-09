@@ -71,7 +71,7 @@ export default function Home() {
       <div className="w-full flex flex-col gap-4 px-2 sm:px-[3rem] mt-6 sm:mt-10">
         <b className="text-xs sm:text-sm text-red-600 uppercase">YOU HAVE TO READ THIS!</b>
         <span className="w-full flex flex-col sm:flex-row items-end justify-between gap-2">
-          <h1 className="text-xl sm:text-3xl font-extrabold">Staff's Picks</h1>
+          <h1 className="text-xl sm:text-3xl font-extrabold">{`Staff's Picks`}</h1>
           <a href="#" className="mb-1 text-sky-600 hover:underline text-xs sm:text-base">
             <b>See all</b>
           </a>
